@@ -1,0 +1,119 @@
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom CSS */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        .display-circle {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        hr {
+            border: 1px solid #ccc;
+        }
+        #contact img {
+            width: 12px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">My Resume</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">เกี่ยวกับผม</a></li>
+                <li class="nav-item"><a class="nav-link" href="#education">การศึกษา</a></li>
+                <li class="nav-item"><a class="nav-link" href="#employment">ประวัติการทำงาน</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">ทักษะ</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">ติดต่อ</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <!-- Hero Section -->
+    <section class="text-center mt-5 pt-5">
+        <img src="https://scontent.fbkk22-4.fna.fbcdn.net/v/t39.30808-6/463303949_830499872495554_299509301980060953_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeE7bVLX4XZODBxoamebpH0H53dn032sbjnnd2fTfaxuOTW1hPnAhi61OYMJZty-z1j5cxXN8BAgwwmM77CLNGYc&_nc_ohc=GmdLLe3BFRAQ7kNvgFpfXjM&_nc_zt=23&_nc_ht=scontent.fbkk22-4.fna&_nc_gid=AghtgS2xpGxjXJNGQ2McgEz&oh=00_AYCo2iDNZ2bOoRLvCbwmHgT5VNTa7IR4ZNzxKZdb8JapbA&oe=674B5630" alt="My Profile" class="display-circle">
+        <h1>ภาณุพงษ์ ศุภศร</h1>
+        <p><em>สาขาวิชา: วิศวกรรมคอมพิวเตอร์และปัญญาประดิษฐ์</em></p>
+        <p>คณะ: วิศวกรรมศาสตร์</p>
+        <p>
+            สถาบัน: <a href="http://pim.ac.th" target="_blank">PIM</a>
+        </p>
+        <p>ประวัติโดยย่อของฉัน: ชายหนุ่มที่กำลังวิ่งตามความฝัน</p>
+        <hr>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="container my-5">
+        <h2>เกี่ยวกับผม</h2>
+        <p>ผมเป็นบุคคลที่ขยันและซื่อสัตย์ มีวินัยในเรื่องเวลาเสมอ และพร้อมที่จะเรียนรู้ทักษะใหม่ ๆ อยู่ตลอดเวลา ผมเป็นคนที่เป็นมิตร ชอบช่วยเหลือ และสุภาพ อีกทั้งยังมีอารมณ์ขันที่ดี ผมสามารถทำงานได้อย่างอิสระในสภาพแวดล้อมที่ยุ่งวุ่นวาย และยังสามารถทำงานร่วมกันในทีมได้อย่างดีเยี่ยมอีกด้วย</p>
+        <hr>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="container my-5">
+        <h2>การศึกษา</h2>
+            <li>จบการศึกษาชั้นมัธยมศึกษาจาก โรงเรียนบ่อทองวงษ์จันทร์วิทยา</li>
+        <hr>
+    </section>
+
+    <!-- Employment History Section -->
+    <section id="employment" class="container my-5">
+        <h2>ประวัติการทำงาน</h2>
+        <ul>
+            <li>เชฟผู้ช่วย, Sushi Express Thailand</li>
+	    <li>ฝึกงาน, ร้านเซเว่นอีเลฟเว่น</li>
+        </ul>
+        <hr>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container my-5">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+	    <li>SQL</li>
+	    <li>Team Leadership</li>
+        </ul>
+        <hr>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="container my-5">
+        <h2>ติดต่อ</h2>
+        <ol>
+            <li>อีเมล์: 6652300451@pim.ac.th</li>
+            <li>เบอร์โทรศัพท์: +6664-290-9868</li>
+            <li>ที่อยู่: 27/48 หมู่ 10 ต.เอนชัวร์ อ.ซีรีแล็ค จ.โกโก้ครันช์ 20488</li>
+        </ol>
+        <hr>
+    </section>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    document.querySelectorAll('a.nav-link').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
+</body>
+</html>
